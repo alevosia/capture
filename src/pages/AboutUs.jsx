@@ -1,4 +1,5 @@
 import { AboutSection } from '../components/AboutSection'
+import { FAQSection } from '../components/FAQSection'
 import { ServicesSection } from '../components/ServicesSection'
 
 export const AboutUs = () => {
@@ -6,6 +7,7 @@ export const AboutUs = () => {
         <>
             <AboutSection />
             <ServicesSection />
+            <FAQSection />
         </>
     )
 }
